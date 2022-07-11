@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "antlr4ts": "antlr4ts ./ScriptGrammar.g4 -o ./src/ANTLR",
-    "start": "webpack-dev-server --hot --open"
+    "start": "webpack-dev-server --hot --open",
+    "build": "webpack --config webpack.config.js"
   },
   "author": "",
   "license": "ISC",
