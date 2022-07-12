@@ -59,7 +59,7 @@ export const richLanguageConfiguration: IRichLanguageConfiguration = {
     { open: '"', close: '"', notIn: ["string"] },
     { open: "'", close: "'", notIn: ["string", "comment"] },
     { open: "`", close: "`", notIn: ["string", "comment"] },
-    { open: "/**", close: " */", notIn: ["string"] },
+    { open: "/*", close: " */", notIn: ["string"] },
   ],
 };
 
