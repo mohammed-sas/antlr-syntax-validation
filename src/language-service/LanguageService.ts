@@ -1,5 +1,5 @@
 
-import { parseAndGetASTRoot, parseAndGetSyntaxErrors } from "./Parser";
+import {  parseAndGetSyntaxErrors } from "./parser";
 import { IScriptError } from "./ScriptErrorListener";
 
 export default class ScriptService {
