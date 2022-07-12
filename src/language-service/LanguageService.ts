@@ -1,5 +1,5 @@
 
-import {  parseAndGetSyntaxErrors } from "./parser";
+import { parseAndGetSyntaxErrors } from "./parser";
 import { IScriptError } from "./ScriptErrorListener";
 
 export default class ScriptService {
@@ -8,4 +8,5 @@ export default class ScriptService {
         //Later we will append semantic errors
         return syntaxErrors;
     }
+   
 }
