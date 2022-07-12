@@ -68,7 +68,7 @@ export const monarchLanguage = <ILanguage>{
     // Set defaultToken to invalid to see what you do not tokenize yet
     defaultToken: 'invalid',
     keywords: [
-        'if', 'for','new','each'
+        'if', 'for','new','each','in','try','catch','else','true','false','null','String','Number','Map','List','return','void','log','Object','Criteria','Boolean'
     ],
     typeKeywords: ['TODO'],
     escapes: /\\(?:[abfnrtv\\"']|x[0-9A-Fa-f]{1,4}|u[0-9A-Fa-f]{4}|U[0-9A-Fa-f]{8})/,
