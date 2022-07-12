@@ -1,7 +1,7 @@
 import * as React from 'react';
 import {createRoot} from 'react-dom/client';
 import {setupLanguage} from "./script-lang/setup";
-import { Editor } from './components/Editor/Editor';
+import { Editor } from './Components/Editor/Editor';
 import { languageID } from './script-lang/config';
 
 
