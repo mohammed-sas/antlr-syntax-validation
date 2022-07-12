@@ -1,7 +1,8 @@
 import * as React from 'react';
 import {createRoot} from 'react-dom/client';
 import {setupLanguage} from "./script-lang/setup";
-import { Editor } from './components/Editor/Editor';
+// @ts-ignore
+import { Editor } from './components/Editor/Editor.tsx';
 import { languageID } from './script-lang/config';
 import { parseAndGetSyntaxErrors, parseAndGetASTRoot } from './language-service/Parser';
 
